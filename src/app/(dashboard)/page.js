@@ -1,9 +1,10 @@
+// src/app/(dashboard)/page.js
 import { getProducts } from '@/lib/stripe/products';
 import { getCustomers } from '@/lib/stripe/customers';
 import { getOrders } from '@/lib/stripe/orders';
 import { getSubscriptions } from '@/lib/stripe/subscriptions';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Users, Package, Receipt, CreditCard, TrendingUp } from 'lucide-react';
+import { Users, Package, Receipt, CreditCard } from 'lucide-react';
 import { formatCurrency } from '@/lib/utils';
 
 /**

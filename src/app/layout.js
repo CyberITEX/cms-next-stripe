@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 /**
  * Notification container and renderer
  */
-export function Notifications() {
+export default function Notifications() {
   const { notifications, removeNotification } = useContext(NotificationContext);
 
   if (notifications.length === 0) return null;
